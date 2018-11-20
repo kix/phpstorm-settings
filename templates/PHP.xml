@@ -1,0 +1,16 @@
+<templateSet group="PHP">
+  <template name="test" value="/**&#10; * @test&#10; */&#10;public function it_$NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="Test case" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="testf" value="/**&#10; * @test&#10; * @group functional&#10; */&#10;public function it_$NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="Functional test case" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
