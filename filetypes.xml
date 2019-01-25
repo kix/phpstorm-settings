@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="generate" type="PHP" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
