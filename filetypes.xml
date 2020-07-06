@@ -1,11 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".php_cs.dist" type="PHP" />
-      <mapping pattern="swoole" type="PHP" />
-      <mapping pattern="quality-checker" type="PHP" />
       <mapping pattern="generate" type="PHP" />
       <mapping pattern="async-resolver" type="PHP" />
+      <mapping pattern="swoole" type="PHP" />
+      <mapping pattern=".php_cs.dist" type="PHP" />
+      <mapping pattern="quality-checker" type="PHP" />
       <mapping pattern="vainer-maps" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
